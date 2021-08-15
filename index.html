@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="assets/js/scroll.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css"> 
+    <title>Movies</title>
+</head>
+<body>
+    <header>
+        <div class="group-1">
+            <span ><a class="logo"href="">Marinflix</a></span>
+            <span ><a class="item-menu" href=""><strong>Inicio</strong></a></span>
+            <span ><a class="item-menu" href="">Filmes</a></span>
+            <span ><a class="item-menu" href="">Series</a></span>
+            <span ><a class="item-menu" href="">Animes</a></span>
+        </div>
+        <div class="group-2">
+            <span><ion-icon class="item-menu icon" name="search-sharp"></ion-icon></span>
+            <span><ion-icon class="item-menu icon" name="notifications"></ion-icon></span>
+            <span><img class="profile-img item-menu" src="assets/img/profile.png" alt="" srcset=""></span>
+
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="serie-first" style="background-image: url('assets/img/banner.jpg')">
+            <div class="block-info">
+                <h1 class="title-info">The Witcher</h1>
+                <p class="sinopse">O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.</p>
+                <div class="block-button">
+                    <span class="button-watch"><ion-icon name="play"></ion-icon>Assistir</span>
+                    <span class="button-info"><ion-icon name="information-circle-outline"></ion-icon><strong>  Mais informações</strong></span>
+                </div>
+            </div>
+        </div>
+        <div class="div-guest">
+
+        </div>
+        <div class="container-top10">
+            <h3>Top 10</h3>
+            <div class="list">
+                <span class="left button-top10" id="0" onclick="scroll_back(this.id)"><ion-icon  name="chevron-back-outline"></ion-icon></span>
+                <div class="box-movie-list">
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie-top10">
+                        <img src="assets/img/top.jpeg" alt="" srcset="">
+                    </div>
+                </div>
+                <span class="button-top10 right" id="0" onclick="scroll_next(this.id)"><ion-icon   name="chevron-forward-outline"></ion-icon></span>
+            </div>
+        </div>
+
+        <div class="container-list">
+            <h3>Mais assistidos</h3>
+            <div class="list">
+                <span class="button-scroll left" id="1" onclick="scroll_back(this.id)"><ion-icon  name="chevron-back-outline"></ion-icon></span>
+                <div class="box-movie-list">
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <span class="button-scroll right" id="1" onclick="scroll_next(this.id)"><ion-icon   name="chevron-forward-outline"></ion-icon></span>
+            </div>
+        </div>
+        <div class="container-list">
+            <h3>Mais assistidos</h3>
+            <div class="list">
+                <span class="button-scroll left" id="2" onclick="scroll_back(this.id)"><ion-icon  name="chevron-back-outline"></ion-icon></span>
+                <div class="box-movie-list">
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <span class="button-scroll right" id="2" onclick="scroll_next(this.id)"><ion-icon   name="chevron-forward-outline"></ion-icon></span>
+            </div>
+        </div>
+        <div class="container-list">
+            <h3>Mais assistidos</h3>
+            <div class="list">
+                <span class="button-scroll left" id="3" onclick="scroll_back(this.id)"><ion-icon  name="chevron-back-outline"></ion-icon></span>
+                <div class="box-movie-list">
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                    <div class="box-movie">
+                        <img src="assets/img/movie.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <span class="button-scroll right" id="3" onclick="scroll_next(this.id)"><ion-icon   name="chevron-forward-outline"></ion-icon></span>
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
