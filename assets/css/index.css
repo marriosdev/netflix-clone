@@ -1,0 +1,223 @@
+*{  
+    text-decoration: none;
+    font-family: 'Georama', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div-guest{
+    height: 80vh;
+}
+.container-top10{
+    text-indent: 40px;
+}
+.container-list{
+    position: relative;
+    margin-top: 30px;
+    text-indent: 40px;
+}
+.button-watch ion-icon{
+    color: black;
+    font-size: 16pt;
+}
+.button-info ion-icon{
+    font-size: 16pt;
+}
+.button-info{
+    align-self: flex-end;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.322);
+    height: 40px;
+    width: 270px;
+}
+.button-watch{
+    margin-right: 10px;
+    align-self: flex-end;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    background: white;
+    height: 40px;
+    width: 140px;
+}
+.block-button{
+    display: flex;
+}
+.block-info{
+    margin-left: 40px;
+    margin-bottom: 190px;
+    width: 400px;
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+}
+.title-info{
+    margin-bottom: 10px;
+}
+.sinopse{
+    margin-bottom: 20px;
+}
+.serie-first{
+    position: absolute;
+    justify-content: flex-start;
+    display: flex;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-bottom: -20;
+    width: 100%;
+    height: 90vh;
+}
+.icon{
+    font-size: 20pt;
+}
+.item-menu{
+    margin-left: 20px;
+}
+.group-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.group-2{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+    font-family: 'Anton', sans-serif;
+    color: red;
+    font-size: 20pt;
+    margin-right: 20px;
+}
+header{
+    z-index: 400000;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: #141414;
+    height: 100%;
+    width: 100%;
+}
+.box-movie-top10 img{
+    height: 440px;
+    width: 250px;
+}
+.box-movie-top10{
+    z-index: 30000;
+    margin-left: 0;
+    margin: 5px;
+    transition: 300ms;
+    word-wrap: break-word;
+    cursor: pointer;
+    position: relative;
+    height: 440px;
+    width: 250px;
+}
+
+.box-movie img{
+    position: relative;
+    height: 150px;
+    width: 250px;
+}
+.box-movie{
+    margin-left: 0;
+    margin: 5px;
+    transition: 300ms;
+    word-wrap: break-word;
+    cursor: pointer;
+    position: relative;
+    height: 150px;
+    width: 250px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.box-movie-list{
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
+.profile-img{
+    height: 40px;
+    width: 40px;
+}
+.left{
+    z-index: 300000;
+    left: 0;
+}
+.right{
+    z-index: 300000;
+    right: 0;
+}
+.button-scroll:hover{
+    color: white;
+}
+
+.button-top10{
+    position: absolute;
+    color: rgb(95, 95, 95);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    font-size: 50px;
+    height: 440px;
+}
+
+.button-scroll{
+    position: absolute;
+    color: rgb(95, 95, 95);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    font-size: 50px;
+    height: 150px;
+}
+
+    /* para  Firefox */
+* {
+    scrollbar-width: none;
+    scrollbar-color: none;
+  }
+  
+  /* Para on Chrome, Edge, e Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: none;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: none;
+    border-radius: 0px;
+    border: 0px solid none;
+  }
